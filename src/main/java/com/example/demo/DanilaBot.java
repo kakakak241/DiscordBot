@@ -20,7 +20,7 @@ import java.util.*;
 
 public class DanilaBot {
 
-    private static final String token = "MTAyNzk2OTI4MzE1MTYzNDUxMw.GOipWh.KhU7Q4O-p59o0N9kfbQhBWYiSLkGtNwgLO8868";
+    private static final String token = "TOKEN";
     private static final Map<String, Command> commands = new HashMap<>();
     static {
         commands.put("ping", event -> Objects.requireNonNull(event.getMessage()
